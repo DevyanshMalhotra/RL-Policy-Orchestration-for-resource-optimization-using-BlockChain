@@ -1,0 +1,18 @@
+num_peers: 5
+bandwidth: 120
+max_time: 600
+
+alpha_latency: 0.05
+beta_efficiency: 0.1
+lambda_orphan: 0.15
+
+gamma: 0.99
+
+episodes: 120
+buffer_size: 8000
+batch_size: 64
+
+lr_actor: 0.0001
+lr_critic: 0.0005
+noise_scale: 0.1
+tau: 0.005
